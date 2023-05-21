@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  height: 100%;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 100px;
+}
+
+.card-header {
+  border: none;
+  background-color: #3949ab;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+.card-header h2 {
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.card-body {
+  padding: 4rem;
+}
+
+.btn-block {
+  width: 100%;
+}
+.btn-main {
+  background-color: #3949ab;
+  color: white;
+}
+.btn-main:hover {
+  color: white;
+  background-color: #00227b;
+}
+
+.items-container {
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 20px 0 10px 0;
+}
+
+.btn-remove {
+  float: right;
+  color: #842029;
+  background-color: #f5c2c7;
+  border-radius: 50%;
+  padding: 1px 7px;
+}
+
+.done {
+  text-decoration: line-through;
+}

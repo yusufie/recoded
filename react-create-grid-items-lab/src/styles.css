@@ -1,0 +1,80 @@
+.App {
+    font-family: sans-serif;
+    border : 0.2rem solid black;
+  }
+  
+  .CardList {
+    background-color: white;
+    display: flex;
+    
+    border-color: solid black;
+    border-radius: 10px;
+    border-width: 10px;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  div.Card1 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 0.3rem;
+    border-style: solid;
+    justify-content: left;
+  }
+
+  div.Card1 h1 {
+    font-size: 2rem;
+    color: rgb(41,69,103);
+  }
+
+
+  div.Card2 {
+    width: 400px;
+    height: 400px;
+    background-color: white;  
+    border-radius: 10px;
+    border-color: black;
+    border-width: 0.3rem;
+    border-style: solid;
+
+  }
+
+  div.Card2 h1 {
+    font-size: 2rem;
+    color: rgb(0,116,189);
+    text-decoration: underline;
+  }
+
+  div.Card3 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 0.3rem;
+    border-style: solid;
+  }
+
+  div.Card3 h1 {
+    font-size: 2rem;
+    color: rgb(41,69,103);
+  }
+
+  div.button {
+    
+    position: fixed;
+    margin-top: 1rem;
+    bottom: 38%;
+  }
+
+  button {
+    background-color: rgb(240,184,43);
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
